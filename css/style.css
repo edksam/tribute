@@ -14,13 +14,40 @@ body {
   max-width: 1100px;
   margin: auto;
 }
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3.4rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca6;
+}
+
+a:visited {
+  color: #74638f;
+}
 h3 {
   font-size: 2rem;
   text-align: center;
 }
-.main {
-  padding: 0 2rem;
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, #7ed56f9f, #28b485c5),
@@ -30,6 +57,7 @@ h3 {
   position: relative;
   clip-path: polygon(100% 0, 100% 100%, 52% 88%, 0 100%, 0 0);
 }
+
 .title-box {
   position: absolute;
   top: 40%;
@@ -51,4 +79,10 @@ h3 {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 18px;
+}
+blockquote {
+  font-style: italic;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
 }
