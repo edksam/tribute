@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777777;
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.main {
+  padding: 0 2rem;
+}
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, #7ed56f9f, #28b485c5),
+    url(https://maa-tribute.s3-us-west-2.amazonaws.com/mama.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 100%, 52% 88%, 0 100%, 0 0);
+}
+.title-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#title {
+  color: #fff;
+  text-transform: uppercase;
+}
+.title-main {
+  display: block;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 18px;
+}
+.title-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 18px;
+}
